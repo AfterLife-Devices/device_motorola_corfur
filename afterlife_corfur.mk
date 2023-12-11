@@ -11,11 +11,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from corfur device
 $(call inherit-product, device/motorola/corfur/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common AfterLife stuff.
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := lineage_corfur
+# AfterLife flags
+AFTERLIFE_MAINTAINER := Romeo_Delta_Wishkey
+
+# disable/enable blur support, default is false
+TARGET_SUPPORTS_BLUR := false
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+PRODUCT_NAME := afterlife_corfur
 PRODUCT_DEVICE := corfur
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola

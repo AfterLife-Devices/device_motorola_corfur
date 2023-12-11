@@ -5,9 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_corfur.mk
+    $(LOCAL_DIR)/afterlife_corfur.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_corfur-user \
-    lineage_corfur-userdebug \
-    lineage_corfur-eng
+    afterlife_corfur-userdebug \
