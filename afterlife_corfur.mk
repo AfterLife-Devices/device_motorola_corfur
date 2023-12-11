@@ -16,7 +16,7 @@ $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # AfterLife flags
-AFTERLIFE_MAINTAINER := Romeo_Delta_Wishkey
+AFTERLIFE_MAINTAINER := Sozosha Team
 
 # disable/enable blur support, default is false
 TARGET_SUPPORTS_BLUR := false
