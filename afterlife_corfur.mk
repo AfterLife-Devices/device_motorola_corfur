@@ -16,10 +16,10 @@ $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # AfterLife flags
-AFTERLIFE_MAINTAINER := Sozosha_Team
+AFTERLIFE_MAINTAINER := Sozosha
 
 # disable/enable blur support, default is false
-TARGET_SUPPORTS_BLUR := false
+TARGET_SUPPORTS_BLUR := true
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
