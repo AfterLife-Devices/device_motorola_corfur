@@ -13,7 +13,5 @@
 
 <resources>
    <string name="maintainer_git_username">KevinFrax</string>
-    <string name="maintainer_tele_username">Sōzōsha (創造者)</string>
-    <string name="maintainer_ig_username">kevin.vm1511</string>
-    <string name="maintainer_fb_username">Kevin De Bruyne AV</string>
+    <string name="maintainer_tele_username">sozosha</string>
 </resources>
